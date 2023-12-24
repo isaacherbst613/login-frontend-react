@@ -1,6 +1,4 @@
-# Using the `App` Component with `LoginComponent`
-
-The `App` component is designed to integrate the `LoginComponent` within your React application. This guide provides an overview of how to utilize the `App` component and its associated functionalities.
+# Using the `Login` Component
 
 ## Getting Started
 
@@ -10,7 +8,6 @@ The `App` component is designed to integrate the `LoginComponent` within your Re
 npm install login-frontend-react 
 ```
 React is obvs a dependency
-### Importing the Login Component
 
 ## Component Overview
 ### `Login` Component
@@ -39,7 +36,7 @@ const handleSignupSubmit = (userData) => {
     // e.g., API calls, state updates, etc.
 };
 ```
-Optionally, define custom styling options for the login and signup forms:
+Optionally, define custom styling options for the login and signup forms, stylingOptions include:
 ```
 const customStyleOptions = {
     logoSrc: '/path/to/custom/logo.png',
