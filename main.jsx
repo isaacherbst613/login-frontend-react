@@ -63,7 +63,7 @@ const LoginForm = ({ mode, onLoginSubmit, onSignupSubmit }) => {
                 if (createpassword !== repeatpassword) {
                     setrequired('Passwords don\'t match');
                 } else {
-                    onSignupSubmit()
+                    onSignupSubmit({ username: signup_username, email, password: createpassword });
                     setrequired(false);
                 }
             }
