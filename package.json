@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "A cool plug-and-play login component",
     "main": "index.jsx",
+    "types": "./index.d.ts",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
