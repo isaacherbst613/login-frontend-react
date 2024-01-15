@@ -1,12 +1,16 @@
 import React from 'react';
 
 export interface AppProps {
-    onLoginSubmit: (userData: any) => void;
-    onSignupSubmit: (userData: any) => void;
+    onLogin: (userData: any) => void;
+    onSignup: (userData: any) => void;
+    onLogout: (userData: any) => void;
+    onForgotCreds: (userData: any) => void;
+    loggedIn: boolean,
+    sideSection?: any,
     styleOptions?: {
-        logoSrc: string;
         loginBackgroundColor: string;
         signupBackgroundColor: string;
+        darkMode: boolean;
     };
 }
 
